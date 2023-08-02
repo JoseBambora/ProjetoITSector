@@ -1,0 +1,117 @@
+.mytable {
+    width:100%;
+    border-collapse: collapse;
+    border-radius: 13px;
+    .myth, .mytd {
+        padding: 15px;
+        text-align: left;
+    }
+    .myth {
+        background-color: goldenrod;
+        color:white;
+    }
+    .mytr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    .mytr:hover{
+        background-color: gold;
+    }
+}
+
+.mybutton {
+      background-color: goldenrod;
+      border: none;
+      border-radius: 15px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+}
+
+.mybutton:hover{
+    background-color: orange;
+}
+
+.mybutton2 {
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.mybutton2:hover{
+    background-color: goldenrod;
+}
+
+body {
+      font-family: Arial, sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.myheader {
+      background-color: goldenrod;
+      border-radius: 10px;
+      padding: 15px 32px;
+      color: white;
+}
+
+.w25 {
+    width:25%;
+}
+.bold {
+    font-weight: bold;
+
+}
+
+.myinput {
+    width:100%;
+    height: 40px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    font-size: 21px;
+}
+
+.mylabel {
+    color: black;
+    height:40px;
+    font-size: 23px;
+}
+
+.mymainheader {
+      background-color: orange;
+      padding: 10px 25px;
+      color: white;
+}
+
+.myfooter {
+      background-color: orange;
+      padding: 7px 20px;
+      color: white;
+}
+.myrow {
+    text-align: right;
+}
+.mycolumn {
+  float: right;
+  width: 33.33%;
+}
